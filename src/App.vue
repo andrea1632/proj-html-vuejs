@@ -1,20 +1,25 @@
 <template>
   <div>
     <HeaderComp/>
+    <MainComp/>
   </div>
 </template>
 
 <script>
+import 'bootstrap'
+import MainComp from './components/MainComp.vue'
 import HeaderComp from './components/HeaderComp.vue'
 export default {
   name: 'App',
   components: {
-    HeaderComp
+    HeaderComp,
+    MainComp,
   }
 }
 </script>
 
 <style lang="scss">
+@import "bootstrap/dist/css/bootstrap.min.css";
   *{
     margin: 0;
     padding: 0;
