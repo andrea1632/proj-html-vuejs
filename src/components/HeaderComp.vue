@@ -61,7 +61,7 @@
                                     <a href="#"><i class="fa-regular fa-user"></i></a>
                                 </li>
                                 <li>
-                                    <button class="btn">
+                                    <button class="btnGreen">
                                         get in touch
                                     </button>
                                 </li>
@@ -82,7 +82,7 @@
                             Planning, recruitment and selection process and performance evaluation of employees
                         </p>
                         <div>
-                            <button class="btn">get in touch</button><button class="btnRead">read more</button>
+                            <button class="btnGreen">get in touch</button><button class="btnLight">read more</button>
                         </div>
                     </div>
                 </div>
@@ -153,16 +153,6 @@ export default{
   ul li a:hover{
       color: #00A6A6;
   }
-  .btn{
-      padding: 10px 20px;
-      text-transform: uppercase;
-      background-color: #058283;
-      color: white;
-      font-weight: 700;
-      border-style: none;
-      border-radius: 5px;
-      cursor: pointer;
-  }
   .topContentHero{
       display: flex;
       justify-content: space-between;
@@ -191,17 +181,6 @@ export default{
           font-size: 1.1em;
           width: 50%;
           padding: 30px 0;
-      }
-      .btnRead{
-      padding: 10px 20px;
-      background-color: transparent;
-      text-transform: uppercase;
-      border: 1px solid #058283;
-      color: white;
-      font-weight: 700;
-      border-radius: 5px;
-      cursor: pointer;
-      margin-left: 20px;
       }
       padding-bottom: 150px;
   }

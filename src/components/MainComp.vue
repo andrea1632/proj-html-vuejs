@@ -14,12 +14,16 @@
     <div class="d-flex justify-content-center clipContainer">
         <ClipComp/>
     </div>
+    <section>
+        <CompanyComp/>
+    </section>
 </main>
 </template>
 
 <script>
 import ClipComp from './ClipComp.vue'
 import CardComp from './CardComp.vue'
+import CompanyComp from './CompanyComp.vue'
 export default{
     name: 'MainComp',
     data(){
@@ -47,6 +51,7 @@ export default{
     components:{
         CardComp,
         ClipComp,
+        CompanyComp,
     }
 }
 </script>
@@ -55,6 +60,8 @@ export default{
         background-color: #e4eae6;
     }
     .clipContainer{
-        margin-top: -30px;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 </style>
