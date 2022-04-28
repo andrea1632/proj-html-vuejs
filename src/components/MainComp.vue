@@ -11,10 +11,14 @@
             </div>
         </div>
     </section>
+    <div class="d-flex justify-content-center clipContainer">
+        <ClipComp/>
+    </div>
 </main>
 </template>
 
 <script>
+import ClipComp from './ClipComp.vue'
 import CardComp from './CardComp.vue'
 export default{
     name: 'MainComp',
@@ -42,11 +46,15 @@ export default{
     },
     components:{
         CardComp,
+        ClipComp,
     }
 }
 </script>
 <style scoped>
     .bgLightGreen{
         background-color: #e4eae6;
+    }
+    .clipContainer{
+        margin-top: -30px;
     }
 </style>
