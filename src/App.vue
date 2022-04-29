@@ -48,4 +48,10 @@ export default {
       .overlay{
       background-color: rgba(8, 9, 17, 0.466);
       }
+    .greenText{
+      color: #058283;
+    }
+    .greenBg{
+    background-color: #DAECED;
+  }      
 </style>

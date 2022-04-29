@@ -5,7 +5,7 @@
                 how it works in practice
             </h4>
             <h2 class="py-3 fw-bolder">
-                <span class="greenBg greenText p-1 fs-1 rounded">
+                <span class="ps-3 greenBg greenText p-1 fs-1 rounded">
                     Process
                 </span>
                 Management
@@ -91,12 +91,6 @@
 </script>
 
 <style scoped>
-.greenText{
-    color: #058283;
-}
-.greenBg{
-    background-color: #DAECED;
-}
 .greenLine{
     height: 6px;
     background-color: #DAECED;
