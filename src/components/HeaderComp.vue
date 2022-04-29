@@ -120,9 +120,6 @@ export default{
   .hero{
       background-image: url('./../assets/img/bg-4.jpg');
   }
-  .overlay{
-      background-color: rgba(8, 9, 17, 0.466);
-  }
   .nexgen{
       text-transform: uppercase;
       color: #C0C3D0;

@@ -20,12 +20,6 @@ export default {
 
 <style lang="scss">
 @import "bootstrap/dist/css/bootstrap.min.css";
-  *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  }
   .w80auto{
     width: 80%;
     margin: auto;
@@ -50,5 +44,8 @@ export default {
       border-style: none;
       border-radius: 5px;
       cursor: pointer;
+      }
+      .overlay{
+      background-color: rgba(8, 9, 17, 0.466);
       }
 </style>

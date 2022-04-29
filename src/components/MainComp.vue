@@ -17,10 +17,17 @@
     <section>
         <CompanyComp/>
     </section>
+    <div class="d-flex justify-content-center clipContainer">
+        <ClipComp/>
+    </div>
+    <section class="bgDarkBlue">
+        <ProjectComp/>
+    </section>
 </main>
 </template>
 
 <script>
+import ProjectComp from './ProjectComp.vue'
 import ClipComp from './ClipComp.vue'
 import CardComp from './CardComp.vue'
 import CompanyComp from './CompanyComp.vue'
@@ -52,6 +59,7 @@ export default{
         CardComp,
         ClipComp,
         CompanyComp,
+        ProjectComp
     }
 }
 </script>
@@ -63,5 +71,8 @@ export default{
         position: absolute;
         left: 50%;
         transform: translate(-50%, -50%);
+    }
+    .bgDarkBlue{
+        background-color: #111117;
     }
 </style>
