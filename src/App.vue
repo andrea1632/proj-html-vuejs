@@ -2,10 +2,14 @@
   <div>
     <HeaderComp/>
     <MainComp/>
+    <footer>
+      <FooterComp/>
+    </footer>
   </div>
 </template>
 
 <script>
+import FooterComp from './FooterComp.vue'
 import 'bootstrap'
 import MainComp from './components/MainComp.vue'
 import HeaderComp from './components/HeaderComp.vue'
@@ -14,6 +18,7 @@ export default {
   components: {
     HeaderComp,
     MainComp,
+    FooterComp,
   }
 }
 </script>
