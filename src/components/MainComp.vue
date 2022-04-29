@@ -23,10 +23,14 @@
     <section class="bgDarkBlue">
         <ProjectComp/>
     </section>
+    <section class="pb-5 mb-5">
+        <ProcessComp/>
+    </section>
 </main>
 </template>
 
 <script>
+import ProcessComp from './ProcessComp.vue'
 import ProjectComp from './ProjectComp.vue'
 import ClipComp from './ClipComp.vue'
 import CardComp from './CardComp.vue'
@@ -59,7 +63,8 @@ export default{
         CardComp,
         ClipComp,
         CompanyComp,
-        ProjectComp
+        ProjectComp,
+        ProcessComp
     }
 }
 </script>
