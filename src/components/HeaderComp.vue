@@ -35,7 +35,7 @@
                 <div class="w80auto">
                     <div class="topContentHero">
                         <div class="nexgen">
-                            <span>
+                            <span class="ps-3">
                                 nex
                             </span>
                             gen

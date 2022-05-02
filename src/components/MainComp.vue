@@ -3,6 +3,7 @@
     <section class="bgLightGreen p-5">
         <div class="container pt-5">
             <div class="row">
+                <!-- stampa dinamica delle carte in base ai data passati con i props -->
                 <CardComp
                 v-for="elm,i in cards"
                 :key="i"
@@ -12,6 +13,7 @@
         </div>
     </section>
     <div class="d-flex justify-content-center clipContainer">
+        <!-- graffetta che collega una sezione all'altra -->
         <ClipComp/>
     </div>
     <section>

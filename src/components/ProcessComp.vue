@@ -37,7 +37,7 @@
                         02
                     </div>
                     <h2 class="fs-4 fw-bolder pb-4">
-                        Collection of information
+                        Strategic planning
                     </h2>
                     <p class="text-secondary">
                         Lorem Ipsum dolor sit amet <br>
@@ -49,7 +49,7 @@
                         03
                     </div>
                     <h2 class="fs-4 fw-bolder pb-4">
-                        Collection of information
+                        Assignment of responsabilities
                     </h2>
                     <p class="text-secondary">
                         Lorem Ipsum dolor sit amet <br>
@@ -61,7 +61,7 @@
                         04
                     </div>
                     <h2 class="fs-4 fw-bolder pb-4">
-                        Collection of information
+                        Formatting process
                     </h2>
                     <p class="text-secondary">
                         Lorem Ipsum dolor sit amet <br>
@@ -73,7 +73,7 @@
                         05
                     </div>
                     <h2 class="fs-4 fw-bolder pb-4">
-                        Collection of information
+                        Continuity formalization
                     </h2>
                     <p class="text-secondary">
                         Lorem Ipsum dolor sit amet <br>
