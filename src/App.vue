@@ -1,6 +1,6 @@
 <template>
   <div>
-    <HeaderComp/>
+    <HeaderComp :links="headerLinks" id="home" />
     <MainComp/>
     <footer>
       <FooterComp/>
@@ -15,6 +15,37 @@ import MainComp from './components/MainComp.vue'
 import HeaderComp from './components/HeaderComp.vue'
 export default {
   name: 'App',
+  data(){
+    return{
+      'headerLinks': [
+/*        'home',
+        'about',
+        'projects',
+        'process',
+        'testimonials'*/
+        {
+          'title': 'home',
+          'link': 'home'
+        },
+        {
+          'title': 'about',
+          'link': 'about'
+        },
+        {
+          'title': 'projects',
+          'link': 'projects'
+        },
+        {
+          'title': 'process',
+          'link': 'process'
+        },
+        {
+          'title': 'testimonials',
+          'link': 'testimonials'
+        }
+      ]
+    }
+  },
   components: {
     HeaderComp,
     MainComp,

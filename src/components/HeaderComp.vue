@@ -23,9 +23,11 @@
                         </span>
                     </div>
                     <div class="topIcons">
-                        <i class="fa-brands fa-facebook-f"></i>
-                        <i class="fa-brands fa-twitter mx"></i>
-                        <i class="fa-brands fa-linkedin-in"></i>
+                        <a href="https://www.facebook.com/" target="_blank" class="text-decoration-none"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://www.twitter.com/" class="text-decoration-none" target="_blank"><i class="fa-brands fa-twitter mx"></i></a>
+                        <a href="https://www.linkedin.com/" target="_blank" class="text-decoration-none"><i class="fa-brands fa-linkedin-in"></i></a>
+                        
+                        
                     </div>
                 </div>
             </div>            
@@ -42,10 +44,10 @@
                         </div>
                         <nav>
                             <ul>
-                                <li>
-                                    <a href="#">home</a>
+                                <li v-for="elm, i in links" :key="i">
+                                    <a :href="'#' + elm.link">{{elm.title}}</a>
                                 </li>
-                                <li>
+                                <!-- <li>
                                     <a href="#">about</a>
                                 </li>
                                 <li>
@@ -56,7 +58,7 @@
                                 </li>
                                 <li>
                                     <a href="#">testimonials</a>
-                                </li>
+                                </li> -->
                                 <li>
                                     <a href="#"><i class="fa-regular fa-user"></i></a>
                                 </li>
@@ -95,7 +97,9 @@
 <script>
 export default{
     name: 'HeaderComp',
-
+    props: {
+        links : Array
+    }
 }
 </script>
 
@@ -104,7 +108,10 @@ export default{
       display: flex;
       justify-content: space-between;
       color: #C0C3D0;
-      padding: 15px 0;
+      padding: 15px 0;      
+          a{
+              color: #C0C3D0;
+          }      
   }
   .rightTop{
       display: flex;

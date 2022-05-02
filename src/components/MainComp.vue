@@ -2,7 +2,7 @@
 <main>
     <section class="bgLightGreen p-5">
         <div class="container pt-5">
-            <div class="row">
+            <div class="row" id="about">
                 <!-- stampa dinamica delle carte in base ai data passati con i props -->
                 <CardComp
                 v-for="elm,i in cards"
@@ -22,13 +22,13 @@
     <div class="d-flex justify-content-center clipContainer">
         <ClipComp/>
     </div>
-    <section class="bgDarkBlue">
+    <section class="bgDarkBlue" id="projects">
         <ProjectComp/>
     </section>
-    <section class="pb-5 mb-5">
+    <section class="pb-5 mb-5" id="process">
         <ProcessComp/>
     </section>
-    <section class="bgLightGreen">
+    <section class="bgLightGreen" id="testimonials">
         <CustomerComp/>
     </section>
 </main>

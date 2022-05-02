@@ -60,7 +60,7 @@
                             </div>
                             <div>
                                 <button class="text-uppercase btnLight ms-1 fs-6">
-                                    view map
+                                    <a target="_blank" style="text-decoration: none; color: white;" href="https://www.google.com/maps/place/987+Main+Ave,+Passaic,+NJ+07055,+USA/@40.8265244,-73.952756,12z/data=!4m5!3m4!1s0x89c2fec8aa3213e5:0xab6c00ef8f54a598!8m2!3d40.8706943!4d-74.1355801">view map</a>
                                 </button>
                             </div>
                         </div>
